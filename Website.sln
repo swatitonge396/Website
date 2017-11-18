@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Tests", "Website.Tests\Website.Tests.csproj", "{2396D295-7B63-4002-8D72-DB3CD9C322F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLGenerationService", "URLGenerationService\URLGenerationService.csproj", "{6684B633-3696-411C-9764-141191CCBA17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2396D295-7B63-4002-8D72-DB3CD9C322F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2396D295-7B63-4002-8D72-DB3CD9C322F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2396D295-7B63-4002-8D72-DB3CD9C322F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6684B633-3696-411C-9764-141191CCBA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6684B633-3696-411C-9764-141191CCBA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6684B633-3696-411C-9764-141191CCBA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6684B633-3696-411C-9764-141191CCBA17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
