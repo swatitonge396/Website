@@ -219,24 +219,31 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="buymaybe\401.html" />
+    <Content Include="buymaybe\browse.html" />
+    <Content Include="buymaybe\css\buymaybe.css" />
+    <Content Include="buymaybe\css\components.css" />
+    <Content Include="buymaybe\css\normalize.css" />
+    <Content Include="buymaybe\favorites.html" />
+    <Content Include="buymaybe\images\buymaybe_-p-500.png" />
+    <Content Include="buymaybe\images\buymaybe_.png" />
+    <Content Include="buymaybe\images\circle.png" />
+    <Content Include="buymaybe\images\circle_s.png" />
+    <Content Include="buymaybe\images\product_image-p-500.png" />
+    <Content Include="buymaybe\images\product_image.png" />
+    <Content Include="buymaybe\js\buymaybe.js" />
+    <Content Include="buymaybe\settings.html" />
+    <Content Include="buymaybe\sign-in.html" />
+    <Content Include="buymaybe\signup.html" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\buymaybe.css" />
-    <Content Include="Content\components.css" />
-    <Content Include="Content\images\buymaybe_-p-500.png" />
-    <Content Include="Content\images\buymaybe_.png" />
-    <Content Include="Content\images\circle.png" />
-    <Content Include="Content\images\circle_s.png" />
-    <Content Include="Content\images\product_image-p-500.png" />
-    <Content Include="Content\images\product_image.png" />
-    <Content Include="Content\normalize.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -244,6 +251,7 @@
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\buymaybe.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
