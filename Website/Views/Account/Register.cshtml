@@ -19,8 +19,8 @@
                 @Html.PasswordFor(m => m.Password, new { @class = "text-field-3 w-input" })
                 @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
 
-                @Html.CheckBoxFor(m => m.RememberMe)
-                @Html.LabelFor(m => m.RememberMe)
+                @*@Html.CheckBoxFor(m => m.RememberMe)
+                @Html.LabelFor(m => m.RememberMe)*@
 
                 <input type="submit" value="Sign In" class="submit-button w-button" />
             }
