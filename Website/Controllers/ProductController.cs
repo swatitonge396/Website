@@ -11,7 +11,7 @@ using Website.Models;
 namespace Website.Controllers
 {
     // [Authorize]
-    public class ProductsController : Controller
+    public class ProductController : Controller
     {
         private MyDbContext db = new MyDbContext();
 
