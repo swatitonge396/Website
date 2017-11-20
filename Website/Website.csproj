@@ -199,6 +199,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\WishListsController.cs" />
     <Compile Include="DBService\DbClient.cs" />
     <Compile Include="DBService\SeedMyDb.cs" />
     <Compile Include="Global.asax.cs">
@@ -418,9 +419,15 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\WishLists\Create.cshtml" />
+    <Content Include="Views\WishLists\Delete.cshtml" />
+    <Content Include="Views\WishLists\Details.cshtml" />
+    <Content Include="Views\WishLists\Edit.cshtml" />
+    <Content Include="Views\WishLists\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\WishList\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
