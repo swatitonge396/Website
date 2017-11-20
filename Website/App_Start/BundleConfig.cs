@@ -26,6 +26,13 @@ namespace Website
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/buymaybe").Include(
+                        "~/Content/js/buymaybe.js"));
+            bundles.Add(new StyleBundle("~/Content/css/css").Include(
+                      "~/Content/css/normalize.css",
+                      "~/Content/css/components.css",
+                      "~/Content/css/buymaybe.css"));
         }
     }
 }
