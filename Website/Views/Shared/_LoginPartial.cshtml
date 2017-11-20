@@ -3,20 +3,21 @@
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
-    @Html.AntiForgeryToken()
+        @Html.AntiForgeryToken()
 
-    <ul class="nav navbar-nav navbar-right">
-        <li>
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
-        </li>
-        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-    </ul>
+        <nav role="navigation" class="nav-menu-2 w-nav-menu">
+            @Html.ActionLink("Browse", "Index", "ProductBrowse", routeValues: null, htmlAttributes: new { @class = "nav-link-4 w-nav-link" })
+            @Html.ActionLink("Favorites", "Favorites", "ProductBrowse", routeValues: null, htmlAttributes: new { @class = "nav-link-5 w-nav-link" })
+
+            <a href="settings.html" class="nav-link-6 w-nav-link">Settings</a>
+            <a href="javascript:document.getElementById('logoutForm').submit()" class="nav-link-7 w-nav-link">Log off</a>
+        </nav>
     }
 }
 else
 {
-    <ul class="nav navbar-nav navbar-right">
-        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
-    </ul>
+    <nav role="navigation" class="nav-menu-2 w-nav-menu">
+        @Html.ActionLink("Sign Up", "Register", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link-6 signup w-nav-link" })
+        @Html.ActionLink("Sign In", "Login", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link-6 signup w-nav-link" })
+    </nav>
 }
