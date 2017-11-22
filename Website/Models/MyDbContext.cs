@@ -19,11 +19,15 @@ namespace Website.Models
             Database.SetInitializer<MyDbContext>(new DropCreateDatabaseIfModelChanges<MyDbContext>());
 
         }
-         
+        
 
         public DbSet<Product> Products { get; set; }
         public DbSet<WishList> WishList { get; set; }
         public DbSet<ScrapList> ScrapList { get; set; }
+        public static MyDbContext Create()
+        {
+            return new MyDbContext();
+        }
 
     }
 }
