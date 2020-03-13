@@ -17,7 +17,7 @@ namespace URLGenerationService
             string url = string.Empty;
             try
             {
-                Authentication param = new Authentication() { AccessKey = "AKIAJ3PYT5Y23QKLK6OA", SecretKey = "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" };
+                Authentication param = new Authentication() { AccessKey = "", SecretKey = "" };
                 Sign sign = new Sign(param);
                 ParamURL operation = new ParamURL();
                 operation.AssociateTag("project2k17-20");
